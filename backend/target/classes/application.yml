@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Employee-Management-System
+  datasource:
+    url: jdbc:mysql://localhost:3306/employee_db
+    username: root
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8081
